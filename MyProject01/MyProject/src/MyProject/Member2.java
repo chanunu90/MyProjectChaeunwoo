@@ -2,7 +2,7 @@ package MyProject;
 
 public class Member2 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 	
 //		1. 앞서 생성 했던 Member 클래스에 main() 메소드 안에 아래 조건의 변수를 정의해봅시다.
 //		① String 타입의 이름을 저장할 수 있는 변수 name을 정의해봅시다.
