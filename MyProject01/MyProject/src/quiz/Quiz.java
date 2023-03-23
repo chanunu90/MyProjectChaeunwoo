@@ -274,7 +274,6 @@ public class Quiz {
         int A = 0;
         int B = 0;
         int first = 0;
-        int second = 0;
         for( i = 1; i <=9; i++) {
         	
            	for(int j = 0; j <=9; j++) {
