@@ -273,9 +273,17 @@ public class Quiz {
         System.out.println("문제 14");
         int A = 0;
         int B = 0;
-        for(A = 1; A <=9; A++) {
-        	for(B = 0; B <=9; B++) {
-        		
+        int first = 0;
+        int second = 0;
+        for( i = 1; i <=9; i++) {
+        	
+           	for(int j = 0; j <=9; j++) {
+           		A=10*i+j;
+           		B=10*j+i;
+           		first=A+B;
+           		if (first==99) {
+					System.out.println(A+"\n"+B +"\n--------\n" + first +"\n");
+				}
         	}
         }
         
