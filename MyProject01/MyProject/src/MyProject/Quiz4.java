@@ -2,7 +2,7 @@ package MyProject;
 
 import java.util.Scanner;
 
-public class quiz4 {
+public class Quiz4 {
 
 	public static void main(String[] args) {
 	//	/프로그램 흐름제어를 위한 조건문과 반복문 

@@ -1,6 +1,6 @@
 package MyProject;
 
-public class quiz3 {
+public class Quiz3 {
 
 	public static void main(String[] args) {
 //		/JAVA에서 제공하는 연산자
