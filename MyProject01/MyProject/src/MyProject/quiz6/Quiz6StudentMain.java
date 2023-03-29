@@ -1,4 +1,4 @@
-package MyProject;
+package MyProject.quiz6;
 
 public class Quiz6StudentMain {
 
