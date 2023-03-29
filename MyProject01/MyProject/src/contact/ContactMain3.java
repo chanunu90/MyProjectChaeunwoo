@@ -29,7 +29,6 @@ public class ContactMain3 {
 		
 		Contact contact = new Contact(name, phoneNumber,email,address,birthday,group);
 		
-		
 		System.out.println("입력 결과 ==========================");
 		//인스턴스의 출력 결과
 		contact.printData();
