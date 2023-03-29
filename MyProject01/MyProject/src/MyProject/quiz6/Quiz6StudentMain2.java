@@ -26,7 +26,7 @@ public class Quiz6StudentMain2 {
 				{ 85, 54, 14   },
 				{ 84, 87, 69   },
 				{ 95, 38, 68   },
-				{ 100, 100, 100}
+				{ 100, 100, 100 }
 		};
 		
 		for(int i= 0; i < name.length ; i++) {

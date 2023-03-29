@@ -58,4 +58,6 @@ public class Quiz6Student {
 		return "학생정보 [학생이름 : " + studentName + ", 국어점수 : " + koreanScore + ", 수학점수 : " + mathScore + ", 영어점수 : " + englishScore + ", 총점 : " +(koreanScore+mathScore+englishScore)+ ", 평균 : " + (float)(koreanScore+mathScore+englishScore)/3 +"]";
 	}
 	
+	
+	
 }
