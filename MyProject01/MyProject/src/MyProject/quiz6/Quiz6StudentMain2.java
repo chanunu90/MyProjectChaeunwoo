@@ -30,7 +30,7 @@ public class Quiz6StudentMain2 {
 		};
 		
 		for(int i= 0; i < name.length ; i++) {
-				System.out.println("이름:" + name[i]  + " , 국어점수:" + scores[i][0]+ " , 수학점수:"  + scores[i][1]+  " , 영어점수:"  + scores[i][2]);
+				System.out.println("이름:" + name[i]  + " , 국어점수:" + scores[i][0]+ " , 수학점수:"  + scores[i][1] +  " , 영어점수:"  + scores[i][2] +  " , 총점:"  + (scores[i][0]+scores[i][1]+scores[i][2]) +  " , 평균점수:"  + (float)(scores[i][0]+scores[i][1]+scores[i][2])/3 );
 		}
 	
 	}
