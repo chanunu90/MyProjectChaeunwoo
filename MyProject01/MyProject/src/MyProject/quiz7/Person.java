@@ -21,6 +21,7 @@ public class Person {
 
 	private String name;
 	private String pNumber;
+	private int age;
 	
 	//생성자
 	public Person(String name, String pNumber) {
@@ -46,8 +47,9 @@ public class Person {
 		this.pNumber = pNumber;
 	}
 	
+	
 	void showPrint() {
-		System.out.println("안녕하세요. 저는 " + name + "입니다." + "주민번호는 : " + pNumber + "입니다.");
+		System.out.println("안녕하세요. 저는 " + name + "입니다." + "주민번호는 " + pNumber +"으로 " + (123 -(Integer.parseInt(pNumber)/10000) + 1) + "살 입니다.");
 	}
 	
 	
