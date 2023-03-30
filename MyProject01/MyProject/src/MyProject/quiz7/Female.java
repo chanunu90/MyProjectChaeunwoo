@@ -13,7 +13,7 @@ public class Female extends Person{
 	@Override
 	void showPrint() {
 		super.showPrint();
-		System.out.println("여자입니다.");
+		System.out.println("여자입니다." + size);
 	}
 	
 }
