@@ -6,7 +6,7 @@ public class Female extends Person{
 	
 	public Female(String name, String pNumber) {
 		super(name, pNumber);
-		this.size = "177m입니다.";
+		this.size = "177cm입니다.";
 	}
 	
 	
