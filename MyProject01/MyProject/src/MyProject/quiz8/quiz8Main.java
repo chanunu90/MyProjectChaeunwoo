@@ -10,5 +10,8 @@ public class quiz8Main {
 		q8.showData(q8.multiply(22, 10), '2');
 		q8.showData(q8.divide(5.8, 6.7));
 		
+		quiz8_Calulator q8Interface = new quiz8Class();
+		
+		
 	}
 }
