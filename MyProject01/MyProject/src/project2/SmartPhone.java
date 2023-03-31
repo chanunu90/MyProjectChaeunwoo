@@ -15,8 +15,6 @@ package project2;
 //⑥ 배열의 요소를 삭제해 봅시다.
 //⑦ 배열의 요소를 수정해 봅시다.
 
-
-
 public class SmartPhone {
 
 	private String name;

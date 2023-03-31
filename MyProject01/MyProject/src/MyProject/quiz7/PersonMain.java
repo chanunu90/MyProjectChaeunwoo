@@ -1,6 +1,6 @@
 package MyProject.quiz7;
 
-public class PersonMain {
+public class PersonMain{
 
 	public static void main(String[] args) {
 
@@ -12,6 +12,7 @@ public class PersonMain {
 		for(Person p:persons) {
 			p.showPrint();
 		}
+		
 		
 	}
 
