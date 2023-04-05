@@ -5,14 +5,12 @@ import java.util.Scanner;
 //① 사용자 예외 클래스를 정의해서 예외를 발생 시켜 봅시다.
 //② 예외 클래스 이름은 BadIdInputException이라고 정의합시다.
 public class BadIdInputExceptionTest {
-
+		
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("영문자와 숫자를 입력해주세요.");
-		
 		String value = sc.nextLine();
-		
 		
 		if(value.isEmpty()) {
 			
@@ -34,15 +32,12 @@ public class BadIdInputExceptionTest {
 					break;
 				}
 				
-				
 			}
 			
 		}
+		
 		System.out.println();
 		System.out.println("입력된 값은 : "+ value + " 입니다.");
-		
-
-	
 		
 	}
 
