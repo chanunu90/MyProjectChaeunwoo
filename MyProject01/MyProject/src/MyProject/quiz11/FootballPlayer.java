@@ -80,20 +80,17 @@ public class FootballPlayer implements Comparable<FootballPlayer>{
 		
 		int result = 0;
 		
-		if(team.compareTo(o.getTeam()) == 0) {
-			if(name.compareTo(o.getName()) == 0) {
-				if(number == getNumber()) {
+		result = team.compareTo(o.getTeam());
+		if(result == 0) {
+			result = name.compareTo(o.getName());
+			if(result == 0) {
+				if(number == o.getNumber()) {
 					result = 0;
 				}else {
-					result = number - getNumber();
+					result = number - o.getNumber();
 				}
-			}else {
-				result = name.compareTo(o.getName());
 			}
-		}else {
-			result = team.compareTo(o.getTeam());
 		}
-		
 		return result;
 	}
 	
